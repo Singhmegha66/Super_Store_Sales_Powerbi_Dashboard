@@ -1,5 +1,5 @@
 # Super_Store_Sales_Powerbi_Dashboard
-This project features an interactive Power BI dashboard built using the popular Superstore dataset. The dashboard is designed to provide insights into sales performance, customer behavior, and product trends across various dimensions such as region, category, and time. The dashboard enables users to explore the data visually, identify patterns, and make data-driven decisions.
+This project demonstrates an end-to-end process of building a comprehensive Power BI dashboard using the Superstore Sales dataset. The dashboard provides actionable insights into various aspects of the business, including sales by region, customer segments, and product categories. Additionally, it includes a sales forecast for the next 15 days, utilizing historical data to predict future trends.
 
 Key Features
 Sales by Region:
@@ -26,13 +26,24 @@ Analyzes how different shipping methods impact sales, providing insights into lo
 Sales Forecast for 15 Days:
 Predicts future sales using a 15-day sales forecast, leveraging historical data to provide actionable insights for planning and strategy.
 
+Data Preparation
+Before creating the Power BI dashboard, the data underwent thorough cleaning and transformation to ensure accuracy and reliability.
+
+Steps Taken:
+Removing Null Values:
+All null values were identified and removed to avoid inaccuracies in visualizations.
+
+Correcting Data Types:
+Data types such as dates, numbers, and text fields were corrected to match the dataset's needs and to ensure proper aggregations.
+
+Handling Duplicates:
+Duplicate records were identified and removed to maintain data integrity.
+
+DAX Queries:
+Key metrics and calculations were created using DAX (Data Analysis Expressions). 
+
 Tools Used
-Power BI Desktop: For data visualization, report generation, and dashboard creation.
-DAX (Data Analysis Expressions): To create calculated fields and measures.
-Power Query: For data transformation and modeling.
-GitHub: For version control and project documentation.
-Usage
-Download the Power BI .pbix file from this repository.
-Open the file in Power BI Desktop.
-Explore the dashboard using the interactive filters and visualizations.
-Customize or modify the dashboard according to your needs.
+Power BI Desktop: For building interactive visualizations and reports.
+Power Query: For data cleaning, transformation, and modeling.
+DAX (Data Analysis Expressions): For creating calculated fields and measures.
+GitHub: For version control and project sharing.
